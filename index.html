@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculateur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Calculateur</h1>
+    <hr>
+    <form action="" onsubmit="return false"> 
+ 
+        <p>saisir le premiére numero:</p> <input type="text" id="nb1"> <br> <br>
+        <p>saisir le duexiéme numero:</p> <input type="text" id="nb2"> <br> <br>
+        <input  type="submit" value="+" onclick="plus()" >
+        <input type="submit" value="-" onclick="mois()">
+        <input type="submit" value="*" onclick="fois()"> 
+        <input type="submit" value="/" onclick="division()">
+        <input type="submit" value='max' onclick="maxemum()">
+        <input type="submit" value="min" onclick="minimum()">
+        <input type="submit" value="puissance" onclick="puis()">
+        <input type="reset" value="Annuler"> <br> <br>
+        <p>resulta:</p><input type="text" disabled="disabled" id="reset">
+
+    </form>  
+</body>
+</html>
+<script src="java.js"> </script> 
+
+
